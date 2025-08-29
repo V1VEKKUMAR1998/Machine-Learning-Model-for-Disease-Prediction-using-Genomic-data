@@ -1,4 +1,4 @@
-# prediction
+# Machine Learning Model for Disease Prediction with synthetic data
 
 **Objective: To build predictive models that classify disease risk using genomic data (SNP/genotype information).**
 
