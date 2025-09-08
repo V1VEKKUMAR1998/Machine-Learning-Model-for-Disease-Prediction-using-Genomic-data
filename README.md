@@ -1,7 +1,53 @@
 # Machine Learning Model for Disease Prediction with synthetic data
 
 **Objective: To build predictive models that classify disease risk using genomic data (SNP/genotype information).**
-
+FLOW CHART 
+Start
+  |
+  v
+Input Genomic Data
+  - SNP / genotype datasets
+  |
+  v
+Preprocessing
+  - prepare_genotype_data*.py
+  - Encoding, cleaning, formatting for ML
+  |
+  v
+Split Data
+  - Training set (X_train, y_train)
+  - Testing set (X_test, y_test)
+  |
+  v
+Train ML Models
+  - train_model1.py, trainmodel.py
+  - Logistic Regression
+  - Random Forest
+  |
+  v
+Evaluate Models
+  - Accuracy, confusion matrix
+  - Feature importance analysis
+  |
+  v
+Generate Predictions
+  - predictions.csv
+  - Visualizations (visualization.py)
+  - feature_importance.png
+  |
+  v
+Insights
+  - Identify top SNPs associated with disease
+  - Evaluate model performance
+  |
+  v
+Future Directions
+  - Scale to larger GWAS datasets
+  - Apply deep learning
+  - Integrate pharmacogenomics databases
+  |
+  v
+End
 ##**Approach:**
 
 - Preprocessing genotype data into machine-learning–friendly formats.
